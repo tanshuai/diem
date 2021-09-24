@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["X_DIEM_CHAIN_ID",""],["X_DIEM_LEDGER_TIMESTAMP",""],["X_DIEM_LEDGER_VERSION",""]],"enum":[["MoveResourceType",""],["MoveTypeTag",""],["MoveValue",""]],"struct":[["Address",""],["Error",""],["HexEncodedBytes",""],["LedgerInfo",""],["MoveResource",""],["MoveStructTag",""],["MoveStructValue",""],["Response",""],["U128",""],["U64",""]]});
