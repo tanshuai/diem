@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/diem",
+  "repository_id": 409844688,
+  "date": "2026-10-03",
+  "source_sha": "3b774462384ea37dd46f1c67b525f03937c45a0a",
+  "entries": [
+    {
+      "original_path": ".github/workflows/dep-summaries.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/dep-summaries.yml",
+      "source_blob_sha": "8c4a4e346ac40ffbce76c0e9f414139ed1814696",
+      "sha256": "ec8735b6d3c716e5536c122f55515cbee238602fe6ac541bedefcaf675a5edad",
+      "workflow_id": 21007618,
+      "workflow_state_before": "active",
+      "business_consumer": "Exact inherited Diem main ordinary CI/check-result/PR-summary automation",
+      "retirement_reason": "Matching upstream main is identical, no runs and no configured runners. Narrow retirement preserves repository_dispatch handlers and workflows with external publishing/pruning/replay consumers.",
+      "config_finding_ids": [
+        "CFG-006",
+        "CFG-008"
+      ],
+      "secret_names": [
+        "GITHUB_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [
+        ".github/dep-auditors.json"
+      ],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/dep-update-review.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/dep-update-review.yml",
+      "source_blob_sha": "291abfae663971209048573f76f3f861b965da5b",
+      "sha256": "a5950c5d49a786902eadee8b5c58be48cc8be650f95d3a9ddbbe83734ce7a632",
+      "workflow_id": 21007619,
+      "workflow_state_before": "active",
+      "business_consumer": "Exact inherited Diem main ordinary CI/check-result/PR-summary automation",
+      "retirement_reason": "Matching upstream main is identical, no runs and no configured runners. Narrow retirement preserves repository_dispatch handlers and workflows with external publishing/pruning/replay consumers.",
+      "config_finding_ids": [
+        "CFG-008"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/jsonrpc-compat.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/jsonrpc-compat.yml",
+      "source_blob_sha": "9a116b46624289e57b0b56b356d4f3a9d3776bc0",
+      "sha256": "914f1c508d856f70d1a4206bac997d880cef482f8198761a2287df7b08a7160f",
+      "workflow_id": 21007623,
+      "workflow_state_before": "active",
+      "business_consumer": "Exact inherited Diem main ordinary CI/check-result/PR-summary automation",
+      "retirement_reason": "Matching upstream main is identical, no runs and no configured runners. Narrow retirement preserves repository_dispatch handlers and workflows with external publishing/pruning/replay consumers.",
+      "config_finding_ids": [
+        "CFG-020"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [
+    {
+      "original_path": ".github/actions/README.md",
+      "archived_path": "archive/github-actions/2026-10-03/.github/actions/README.md",
+      "source_blob_sha": "29a25da3d718263e244dc686ec1671e8c64e8a45",
+      "sha256": "cb302098e30483aebda80bc0059544e9a4dbc7bfae9764f0af296fb0428946e5",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/actions/build-setup/action.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/actions/build-setup/action.yml",
+      "source_blob_sha": "571b42b0f331289e8642c2c7a64d6005975f3dff",
+      "sha256": "1090ae77f81c67a340057b58806bc8886aee93c27d188c1d01e3371d9f8aa43c",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/actions/build-teardown/action.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/actions/build-teardown/action.yml",
+      "source_blob_sha": "2cc29fa0549e3aa2cbd53b67ac1df62299a39d60",
+      "sha256": "9882bd4a83481f1b554c7fb3c0c51ed9414ee33302ac50d81b54adaf271527e5",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/actions/check-machine/action.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/actions/check-machine/action.yml",
+      "source_blob_sha": "d6edabf63f64d34dff345c6087f8e0642076404e",
+      "sha256": "a06d2e08ec76041ba033ffc199fe60202dbc127327568330c0bac081d5cfe47a",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/actions/docker-checks/action.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/actions/docker-checks/action.yml",
+      "source_blob_sha": "d6daa480887e02a2772fa28ecf387bf33416d6ae",
+      "sha256": "35b4afc79897b89285421400093c2ce613071122ecef5674365b65fbd279e853",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/actions/dockerhub_login/readme.md",
+      "archived_path": "archive/github-actions/2026-10-03/.github/actions/dockerhub_login/readme.md",
+      "source_blob_sha": "0ca97de350ef34cd758d112f5981aba6ba692a65",
+      "sha256": "7a65c53f31f48ef0a2473b32904df28ec8be1e2b9cadeb0e3e5dbdaf81dbdbc7",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/actions/early-terminator/action.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/actions/early-terminator/action.yml",
+      "source_blob_sha": "e97a1aeb7bfcf8d19a14f49d54ebf681a8b4be97",
+      "sha256": "93e67eda4a5924651f44b2a2a76432bfbdea1552e23a0e38198429f2e501eac4",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/actions/land-blocking/find-lbt-images.sh",
+      "archived_path": "archive/github-actions/2026-10-03/.github/actions/land-blocking/find-lbt-images.sh",
+      "source_blob_sha": "1a988e244fac7ef588cfd2bf95124f2817034262",
+      "sha256": "ed7dd1dd741ac7ada6dc57821af029e5bce5af7a12e93da42133a2314224aff1",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/actions/slack-file/action.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/actions/slack-file/action.yml",
+      "source_blob_sha": "7f6a94f7299e060af1ee01064c54e23becf432ea",
+      "sha256": "12bbeaf37dfd4d80d5c7b3c0d33df3702d3bbd68413674910395d3b86f60f5b4",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/actions/slack-file/message_file_to_slack.sh",
+      "archived_path": "archive/github-actions/2026-10-03/.github/actions/slack-file/message_file_to_slack.sh",
+      "source_blob_sha": "eb3f63f349c5ba5465976a19a92106146e44cbbe",
+      "sha256": "e0da55803b4776e9980e4a68f21250165c7f6204681106aa6cfdfdead9af8bd8",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": ".github/dep-auditors.json",
+      "archived_path": "archive/github-actions/2026-10-03/.github/dep-auditors.json",
+      "source_blob_sha": "71f097f394acd3549c6fd8fe08131a63878671f7",
+      "sha256": "e9db5547bb088563e0e814c1cf67f59d96c830f9b0f21c3a6be3ba57b63db8e0",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "Cargo.lock",
+      "archived_path": "archive/github-actions/2026-10-03/Cargo.lock",
+      "source_blob_sha": "f52bf0e21afa8e6e954f5fe57adea759310ab0a4",
+      "sha256": "698e3326389ffc1df35acbcf137f97dcf21cfa949ebfee37984f969048aadfc7",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "Cargo.toml",
+      "archived_path": "archive/github-actions/2026-10-03/Cargo.toml",
+      "source_blob_sha": "a0e7bac18da037a3f2479f33cca74ff6458571d7",
+      "sha256": "5c461cd9c8d92e4ba4f15f4b2156035054c7b7b8338aec3b33064d8b12b93f3e",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "rust-toolchain",
+      "archived_path": "archive/github-actions/2026-10-03/rust-toolchain",
+      "source_blob_sha": "43c989b55315fd82922af439f9db5692001a4ea8",
+      "sha256": "4c0c893fa09687b3b6ced0f81973aa942127aa4b1430e11f372d3f309bc8ebd7",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    }
+  ],
+  "retained_dependency_references": [
+    {
+      "original_path": ".github/actions/dockerhub_login/action.yml",
+      "source_blob_sha": "793c7eca9247742ceb2b0cf4ea386690042af437",
+      "sha256": "2996be7602d762bd4a94b7906a078c7a4c1e173ea8de370322f3082a3a69f7ae",
+      "original_retained": true,
+      "reason": "Shared active Docker login action metadata remains unchanged in original Git history. Common credential filter conservatively flags its human description; no additional flagged bytes published."
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "diem/diem",
+    "source_sha": "3b774462384ea37dd46f1c67b525f03937c45a0a",
+    "ahead_by": 0,
+    "behind_by": 0,
+    "status": "identical",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
